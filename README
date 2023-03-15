@@ -1,8 +1,10 @@
-1 - First copy the files "new_alarm_mutex.c", and "errors.h" into your own directory.
+Alarm Thread
 
-2 - To compile the program "new_alarm_mutex.c", use the following command:
+1 - First copy the files "AlarmMutex.c", and "errors.h" into your own directory.
 
-cc new_alarm_mutex.c -D_POSIX_PTHREAD_SEMANTICS -lpthread
+2 - To compile the program "AlarmMutex.c", use the following command:
+
+cc AlarmMutex.c -D_POSIX_PTHREAD_SEMANTICS -lpthread
 3 - Type "a.out" to run the executable code.
 
 4 - At the prompt "Alarm>", type in "Start_Alarm" or "Change_Alarm" followed by the Alarm_ID in brackets, followed by a ":", followed by the number of seconds at which the alarm should expire, followed by the text of the message. For example:
